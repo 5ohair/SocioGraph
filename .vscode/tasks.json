@@ -1,0 +1,88 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build debug",
+            "type": "process",
+            "command": "C:/raylib/w64devkit/bin/mingw32-make.exe",
+            "args": [
+                "-f",
+                "Makefile",
+                "all"
+            ],
+            "windows": {
+                "command": "C:/raylib/w64devkit/bin/mingw32-make.exe",
+                "args": [
+                    "-f",
+                    "Makefile",
+                    "all"
+                ]
+            },
+            "osx": {
+                "command": "make",
+                "args": [
+                    "-f",
+                    "Makefile",
+                    "all"
+                ]
+            },
+            "linux": {
+                "command": "make",
+                "args": [
+                    "-f",
+                    "Makefile",
+                    "all"
+                ]
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build release",
+            "type": "process",
+            "command": "C:/raylib/w64devkit/bin/mingw32-make.exe",
+            "args": [
+                "-f",
+                "Makefile",
+                "all"
+            ],
+            "windows": {
+                "command": "C:/raylib/w64devkit/bin/mingw32-make.exe",
+                "args": [
+                    "-f",
+                    "Makefile",
+                    "all"
+                ]
+            },
+            "osx": {
+                "command": "make",
+                "args": [
+                    "-f",
+                    "Makefile",
+                    "all"
+                ]
+            },
+            "linux": {
+                "command": "make",
+                "args": [
+                    "-f",
+                    "Makefile",
+                    "all"
+                ]
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "detail": "compiler: C:\\raylib\\w64devkit\\bin\\g++.exe"
+        }
+    ]
+}
